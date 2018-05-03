@@ -9,7 +9,7 @@ A `<form>` element has a lot of attributes, here are the most important of them:
 `get` - corresponds to the HTTP GET method.
 * `name` - The name of the form. It must be unique among the forms in a document.
 
-Here is a more information about `<form>`'s attributes: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#Attributes
+Here is a more information about `<form>`'s attributes: <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form#Attributes>
 
 Second, knowing what is `<form>`, you need to know what is `<input>` — the element is used to create interactive controls for web-based forms in order to accept data from the user. How an `<input>` works varies considerably depending on the value of its `type` attribute.
 
@@ -23,7 +23,7 @@ Below there is a list of widely used `type` values:
 * `radio` - a radio button. You must use the value attribute to define the value submitted by this item. Use the checked attribute to indicate whether this item is selected by default.
 * `submit` - a button that submits the form.
 
-Read more about other possible values here: https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_<input>\_types
+Read more about other possible values here: <https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Form_%3Cinput%3E%5C_types>
 
 ## THE CHALLENGE
 
