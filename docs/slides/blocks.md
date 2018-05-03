@@ -16,7 +16,7 @@ Here is an example of usage:
 
 Preview:
 
-**|>** Any kind of content here. Such as <p>, <table>. You name it!
+**|>** Any kind of content here. Such as &lt;p&gt;, &lt;table&gt;. You name it!
 
 ### Semantic elements
 
