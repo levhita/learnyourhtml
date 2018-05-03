@@ -3,13 +3,35 @@
 <head>  
 	<meta charset="utf-8">  
 	<title>Hello, world!</title> 
-	
-	<script defer>
-		console.log(document.getElementById('container'));
-	</script>
-	
+	<style>
+	nav {position:fixed; bottom:0; right:0; text-align: right}	
+</style>
 </head>  
-<body>  
-	<div id="container"></div>
+<body> 
+	<nav>
+		<input type="button" onclick="slides.previous()" value="Previous"/>
+		<input type="button"  onclick="slides.next()" value="Next"/>
+	</nav>
+	
+	<div id="slides"></div>
+
+
+	<script src="js/jquery-3.3.1.min.js"></script>
+	<script src="js/showdown.min.js"></script>
+	<script src="js/remarkable.js"></script>
+	<script>
+		let sections = ['hello_world','tags','attributes','inline_tags','headings','lists','tables',
+		'blocks', 'links_and_references','links_and_references','forms','styles_and_scripts'];
+		
+		sections.map((section, index)=>{
+			sections[index] = {
+				title: section.replace('_', ' ').toUpperCase(),
+				step: index,
+				url :"https://raw.githubusercontent.com/denysdovhan/learnyouhtml/master/exercises/"+section+"/en.md"
+			}
+		});
+		
+		let slides = remarkable('#slides', sections);
+	</script>
 </body>  
 </html>
