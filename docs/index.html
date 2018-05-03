@@ -21,13 +21,12 @@
 	<script src="js/remarkable.js"></script>
 	<script>
 		let sections = ['hello_world','tags','attributes','inline_tags','headings','lists','tables',
-		'blocks', 'links_and_references','links_and_references','forms','styles_and_scripts'];
-		
+		'blocks','links_and_references','forms','styles_and_scripts'];
 		sections.map((section, index)=>{
 			sections[index] = {
 				title: section.replace('_', ' ').toUpperCase(),
 				step: index,
-				url :"https://raw.githubusercontent.com/denysdovhan/learnyouhtml/master/exercises/"+section+"/en.md"
+				url :"slides/"+section+".md"
 			}
 		});
 		

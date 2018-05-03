@@ -6,7 +6,7 @@ window.remarkable = function(element, sections) {
 			type: 'get', 
 			dataType: 'html',
 			success: function(data) { 
-				$('#container').append("<p>Loaded " + section.title + ".</p>");
+				$(self.element).append("<p>Loaded " + section.title + ".</p>");
 				self.loadedSections[index] = data;
 				if ( ++self.loadCount>=self.sections.length ) {
 					self.render();
