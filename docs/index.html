@@ -2,9 +2,11 @@
 <html>  
 <head>  
 	<meta charset="utf-8">  
-	<title>Hello, world!</title> 
+	<title>Learn Your HTML</title> 
 	<style>
-	nav {position:fixed; bottom:0; right:0; text-align: right}	
+	nav {position:fixed; bottom:1em; right:1em; text-align: right}
+	#slides{display:inline-block; width:80%;}
+	#navigation {position:fixed; top:1em; right:0; width:20%;}
 </style>
 </head>  
 <body> 
@@ -14,6 +16,7 @@
 	</nav>
 	
 	<div id="slides"></div>
+	<div id="navigation"></div>
 
 
 	<script src="js/jquery-3.3.1.min.js"></script>
@@ -28,8 +31,9 @@
 				step: index,
 				url :"slides/"+section+".md"
 			}
+			$('#navigation').append("<input type='button' onclick='slides.renderSlide("+index+")' value='"+sections[index].title+"'/><br/>");
 		});
-		
+
 		let slides = remarkable('#slides', sections);
 	</script>
 </body>  

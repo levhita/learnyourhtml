@@ -1,3 +1,5 @@
+#Tags
+
 HTML uses special bits of programming language called _tags_ to let the browser know how a webpage should look. The tags usually come in pairs: an opening tag to tell the browser when to start doing something, and an ending tag to tell the browser when to stop doing something. There are many different kinds of tags, and each one has a different purpose.
 
 Let's think of tags like it's some kind of selection tool in text editors. In text editor, such as **Microsoft Office Word** or **Writer**, if you want to make text **bold** you _select_ a part of text and click corresponding button (**b**). In HTML, you have tags for that reason.

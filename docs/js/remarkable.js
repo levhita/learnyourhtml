@@ -17,10 +17,13 @@ window.remarkable = function(element, sections) {
 
 	self.render = function() {
 		console.log("Rendering "+ self.selected) ;
-		const title = self.sections[self.selected].title;
-		const loadedSection = "#" + title +"\n" + self.loadedSections[self.selected];
-		$(self.element).html(self.converter.makeHtml(loadedSection));
+		$(self.element).html(self.converter.makeHtml(self.loadedSections[self.selected]));
 	};
+
+	self.renderSlide = function(selected) {
+		self.selected=selected;
+		self.render();
+	}
 
 	self.next = function() {
 		if (++self.selected>=self.sections.length) {

@@ -1,3 +1,4 @@
+# Inline Tags
 You know how to create an paragraph of text, so it's enough to write your own book using HTML! Sometimes we meet highlighted words in books, like definitions or something. Unfortunately, you don't know how to highlight words in HTML. However, you're here, so that's easy to fix.
 
 ### Font faces

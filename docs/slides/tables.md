@@ -1,3 +1,4 @@
+# Tables
 It's time to understand how tables work in HTML. Let's consider this table:
 
 ```

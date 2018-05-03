@@ -1,3 +1,4 @@
+# Headings
 Almost in any article or blog post you need to divide your content by logical parts with corresponding heading. HTML provide six levels of heading elements.
 
 Headings play important role on a web page. First, they show the importance of the section they belong to. Remember in the newspapers and magazines the most important news are typed in large print, thereby attracting attention to them and saying: "This is something that must be read". Secondly, with the help of different headings it is easy to adjust the size of the text. The higher the header level, the larger the font size.

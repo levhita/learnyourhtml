@@ -1,3 +1,4 @@
+# Attributes
 In this exercise we are going to take a look at tag attributes.
 
 Tag attributes extend the ability of tags and give us flexible control over different options for displaying elements or configuring their behavior. There are a lot of attributes for different purposes like color, size, address and so on.

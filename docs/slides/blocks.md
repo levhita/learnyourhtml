@@ -1,3 +1,4 @@
+# Blocks
 Now you know the basic of styling and composing text in HTML. The problem is that you can't create a web page with UI elements you used to see on real sites and web-applications. That's because you can't compose everything in self-sufficient blocks. This exercise aimed to explain you how to do this.
 
 ### HTML &lt;div&gt; element

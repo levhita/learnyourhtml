@@ -1,3 +1,4 @@
+# Styles and Scripts
 You can attach a special resources to your page, like styles or scripts.
 
 ### Styles

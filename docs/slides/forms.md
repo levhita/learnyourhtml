@@ -1,3 +1,4 @@
+# Forms
 Definitely you remember that sites often has a sign-up pages with input fields for email or username and password. In this exercise we're going to consider how you can create such HTML elements.
 
 First of all, we need to start from `<form>` element which represents a document section that contains interactive controls to submit information to a web server.
